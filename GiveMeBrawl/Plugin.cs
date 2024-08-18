@@ -1,10 +1,10 @@
 ﻿using BepInEx;
 using Utilla;
 
-namespace GiveMeBrawl
+namespace Test
 {
-    [ModdedGamemode("PAINTBRAWL","PAINT BRAWL", Utilla.Models.BaseGamemode.Battle)]
+    [ModdedGamemode("TEST","test", Utilla.Models.BaseGamemode.Battle)]
     [BepInDependency("org.legoandmars.gorillatag.utilla")]
-    [BepInPlugin("GiveMeBrawl", "Give Me Brawl", "1.0.0")]
+    [BepInPlugin("GiveMeTest", "Give Me Test", "1.0.0")]
     public class Plugin : BaseUnityPlugin{}
 }
